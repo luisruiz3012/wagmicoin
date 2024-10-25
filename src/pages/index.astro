@@ -1,0 +1,355 @@
+---
+import Header from '../components/Header.astro';
+import Logo from '../assets/logo.jpg';
+import { Image } from 'astro:assets';
+import Footer from '../components/Footer.astro';
+import MobileMenu from '../containers/MobileMenu.astro';
+---
+
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <link rel='icon' type='image/svg+xml' href='/logo.jpg' />
+    <meta name='viewport' content='width=device-width' />
+    <meta name='generator' content={Astro.generator} />
+    <title>Wagmi Whale Coin</title>
+    <link rel='preconnect' href='https://fonts.googleapis.com' />
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+    <link
+      href='https://fonts.googleapis.com/css2?family=Lilita+One&display=swap'
+      rel='stylesheet'
+    />
+  </head>
+  <body>
+    <Header />
+    <MobileMenu />
+    <section class='min-h-screen bg-yellow-200 p-14 md:p-24'>
+      <section class='flex items-center justify-center gap-20 flex-wrap'>
+        <div
+          class='lg:w-1/2 px-10 py-20 bg-yellow-400 border border-yellow-500 rounded-3xl'
+        >
+          <h2 class='text-white lilita-one-regular text-6xl'>Meet</h2>
+          <h1 class='lilita-one-regular text-white'>Wagmi</h1>
+          <p class='mt-12 text-xl text-white'>
+            <span class='lilita-one-regular'>Wagmi</span> is the next big memecoin
+            that combines the charm of everyone's favorite animal, the whale, with
+            the energy of memecoins. With a community-driven approach and a focus
+            on fun, <span class='lilita-one-regular'>Wagmi</span> is poised to become
+            the coolest memecoin on the market.
+          </p>
+
+          <h6 class='mt-10 text-white text-4xl lilita-one-regular mb-2'>
+            Donations address ($ABEY):
+          </h6>
+          <div class='bg-yellow-500 text-white px-4 py-2'>
+            <p class='text-xl'>
+              0xeef485fE1ACfb1fEd9B3371<br class='md:hidden' />c70F893F6D5B339f6
+            </p>
+          </div>
+        </div>
+        <div class='md:w/1-2'>
+          <Image
+            src={Logo}
+            alt='logo'
+            class='bg-white rounded-full border-8 w-96 border-yellow-500'
+          />
+        </div>
+      </section>
+    </section>
+    <section
+      id='about'
+      class='bg-yellow-400 w-full min-h-screen border-t border-yellow-500 py-16 px-10 md:px-24'
+    >
+      <h3 class='text-white lilita-one-regular text-center'>About</h3>
+      <p class='text-white text-xl my-24'>
+        <span class='lilita-one-regular'>Wagmi Whale Coin</span> is a fresh, community-driven
+        memecoin that blends the lovable charm of whales with the dynamic energy
+        of cryptocurrency. Designed to bring both fun and opportunity to the crypto
+        space, Wagmi isn't just another coin—it's a movement. Our mission is simple:
+        build a lighthearted, inclusive community where everyone can participate
+        in the journey of financial growth, all while having a blast.
+        <br />
+        <br />
+        With our adorable yet cheeky whale mascot, <span
+          class='lilita-one-regular'>Wagmi Whale Coin</span
+        > aims to be a symbol of resilience and adaptability, much like the whale
+        itself. Whether you're new to crypto or a seasoned trader, Wagmi offers a
+        chance to join a project that doesn’t take itself too seriously while still
+        offering serious potential.
+        <br />
+        <br />
+
+        <span class='lilita-one-regular'>Wagmi</span> is more than just a token—it's
+        an experience, a meme, and a growing community. We believe that the future
+        of crypto is not just about technology, but also about fun, creativity, and
+        connection. So whether you're here to hodl or just along for the whale-powered
+        ride,
+        <span class='lilita-one-regular'>Wagmi Whale Coin</span> is your ticket to
+        the coolest crypto adventure around.
+        <br />
+        <br />
+
+        Join us and start waddling towards a brighter, meme-fueled future!
+      </p>
+    </section>
+
+    <section class='min-h-screen bg-yellow-200 p-10 md:p-24' id='how-to-buy'>
+      <h3 class='lilita-one-regular text-white text-center'>How to buy</h3>
+
+      <div class='my-20 flex flex-col gap-10'>
+        <article
+          class='w-full flex items-center justify-start gap-10 flex-wrap md:flex-nowrap text-white bg-yellow-400 rounded-lg border-2 border-yellow-500 p-10 text-lg'
+        >
+          <img
+            src='//images.ctfassets.net/9sy2a0egs6zh/2qy1wS5MmZOXkXn9yFlGJp/f3797a512c283e6f71450abd408b7452/mm-logo-white.svg'
+            class='w-36'
+          />
+
+          <div>
+            <h2 class='text-white lilita-one-regular text-4xl'>
+              Download Metamask
+            </h2>
+            <p>
+              Metamask is one of the most popular crypto wallets on the market.
+              You can download it on IOS and Adroid or you can even download the
+              browser extension and become part of the Shido ecosystem.
+            </p>
+          </div>
+        </article>
+
+        <article
+          class='w-full flex items-center justify-center gap-10 flex-wrap md:flex-nowrap text-white bg-yellow-400 rounded-lg border-2 border-yellow-500 p-10 text-lg'
+        >
+          <img
+            src='https://staging-72fd-abeycom.wpcomstaging.com/wp-content/uploads/2023/07/Abey_icon-web.png'
+            class='w-14'
+          />
+
+          <div>
+            <h2 class='text-white lilita-one-regular text-4xl'>
+              Get some <span>$ABEY</span>
+            </h2>
+            <p>
+              Once you have your Metamasl Wallet installed and setup, it's time
+              to get some $ABEY to start trading. You can buy some $ABEY on <a
+                href='https://app.xswap.com/#/swap'>X Swap</a
+              >.
+            </p>
+          </div>
+        </article>
+
+        <article
+          class='w-full flex items-center justify-center gap-10 flex-wrap md:flex-nowrap text-white bg-yellow-400 rounded-lg border-2 border-yellow-500 p-10 text-lg'
+        >
+          <img
+            src='data:image/png;base64,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'
+            class='w-16 pl-4'
+          />
+
+          <div>
+            <h2 class='text-white lilita-one-regular text-4xl'>
+              Go to Gempad.app
+            </h2>
+            <p>
+              Once you have $ABEY on your Metamask Wallet, it's time to trade it
+              for some $WGMI. To do that, you can go to our Gempad.app page
+              <!-- <a
+                class='text-yellow-600 underline font-bold'
+                href='https://pump.fun/HZhBACLZxwRbecoHsiqmbQeFha3kzWeJWXkEBDfGpump'
+                >Click here</a
+              > -->
+            </p>
+          </div>
+        </article>
+
+        <article
+          class='w-full flex items-center justify-center gap-10 flex-wrap md:flex-nowrap text-white bg-yellow-400 rounded-lg border-2 border-yellow-500 p-10 text-lg'
+        >
+          <img
+            src='/logo.jpg'
+            class='w-20 rounded-full border-4 border-yellow-600'
+          />
+
+          <div>
+            <h2 class='text-white lilita-one-regular text-4xl'>
+              Exchange <span>$ABEY</span> for $WGMI
+            </h2>
+            <p>
+              You can trade some $ABEY for $WGMI. We have ZERO taxes so you
+              don’t need to worry about buying with a specific slippage,
+              although you may need to use slippage during times of market
+              volatility.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section
+      id='why-wagmi'
+      class='bg-yellow-400 w-full min-h-screen border-t border-yellow-500 py-16 px-10 md:px-24'
+    >
+      <h3 class='text-white lilita-one-regular text-center'>
+        Why Wagmi Whale?
+      </h3>
+
+      <ul class='my-16 flex flex-col gap-10'>
+        <li
+          class='text-2xl md:text-5xl text-white lilita-one-regular list-disc'
+        >
+          <b class='underline'>Community-Driven:</b> Wagmi Whale Coin is built by
+          and for its community, focusing on fun and inclusivity. Joining early means
+          becoming part of a passionate and growing community.
+        </li>
+
+        <li
+          class='text-2xl md:text-5xl text-white lilita-one-regular list-disc'
+        >
+          <b class='underline'>Fun & Lighthearted:</b> Wagmi Whale brings a unique,
+          meme-inspired approach to crypto with its playful whale mascot, making
+          it more than just an investment—it's an enjoyable experience.
+        </li>
+
+        <li
+          class='text-2xl md:text-5xl text-white lilita-one-regular list-disc'
+        >
+          <b class='underline'>Low Entry Price:</b> With an affordable entry point,
+          Wagmi Whale allows new investors to get in on the ground floor with the
+          potential for significant returns as the coin gains traction.
+        </li>
+      </ul>
+    </section>
+
+    <section
+      class='min-h-screen bg-yellow-200 py-16 px-10 md:px-24'
+      id='tokenomics'
+    >
+      <h5 class='lilita-one-regular text-white text-center'>Tokenomics</h5>
+
+      <div class='flex justify-between items-center flex-col md:flex-row'>
+        <div class='md:w-2/3 flex flex-col items-center'>
+          <article
+            class='w-fit md:w-full flex items-center justify-start gap-4 flex-wrap md:flex-nowrap text-white bg-yellow-400 rounded-lg border-2 border-yellow-500 p-10 text-lg my-12 flex-col md:mt-24'
+          >
+            <h5 class='lilita-one-regular text-4xl md:text-5xl'>
+              Total Supply:
+            </h5>
+            <h5 class='lilita-one-regular text-2xl md:text-4xl text-center'>
+              1,000,000,000 $WGMI
+            </h5>
+          </article>
+
+          <article
+            class='w-fit md:w-full flex items-center justify-start gap-4 flex-wrap text-wrap md:flex-nowrap text-white bg-yellow-400 rounded-lg border-2 border-yellow-500 p-10 text-lg flex-col'
+          >
+            <h5 class='lilita-one-regular text-4xl'>Token address:</h5>
+            <h5
+              class='lilita-one-regular text-lg text-center md:text-4xl text-wrap'
+            >
+              0xd578576523b8Fc9F58E 7F48FC99f3bBEC0756479
+            </h5>
+          </article>
+        </div>
+
+        <img
+          src='/logo.jpg'
+          class='md:w-1/3 md:ml-10 h-full my-10 rounded-full'
+        />
+      </div>
+    </section>
+
+    <Footer />
+  </body>
+</html>
+
+<style is:global>
+  * {
+    scroll-behavior: smooth;
+  }
+
+  @font-face {
+    font-family: 'Funny Sunshine';
+    src: url('/fonts/FUNNY SUNSHINE.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  h1,
+  h3,
+  h4 {
+    font-size: 10rem;
+    line-height: 8rem;
+    stroke: fdcf00;
+    text-shadow:
+      2px 0 #fdcf00,
+      -2px 0 #fdcf00,
+      0 2px #fdcf00,
+      0 -2px #fdcf00,
+      1px 1px #fdcf00,
+      -1px -1px #fdcf00,
+      1px -1px #fdcf00,
+      -1px 1px #fdcf00;
+  }
+
+  h5 {
+    font-size: 10rem;
+    line-height: 8rem;
+    stroke: yellow;
+    text-shadow:
+      2px 0 #fdcf00,
+      -2px 0 #fdcf00,
+      0 2px #fdcf00,
+      0 -2px #fdcf00,
+      1px 1px #fdcf00,
+      -1px -1px #fdcf00,
+      1px -1px #fdcf00,
+      -1px 1px #fdcf00;
+  }
+
+  h2,
+  span,
+  li {
+    text-shadow:
+      2px 0 #fdcf00,
+      -2px 0 #fdcf00,
+      0 2px #fdcf00,
+      0 -2px #fdcf00,
+      1px 1px #fdcf00,
+      -1px -1px #fdcf00,
+      1px -1px #fdcf00,
+      -1px 1px #fdcf00;
+  }
+
+  @media screen and (max-width: 768px) {
+    h1,
+    h3 {
+      font-size: 7rem;
+      text-wrap: wrap;
+    }
+
+    h5 {
+      font-size: 5rem;
+      text-wrap: wrap;
+    }
+  }
+
+  @media screen and (max-width: 380px) {
+    h1,
+    h3 {
+      font-size: 6rem;
+      text-wrap: wrap;
+    }
+
+    h5 {
+      font-size: 4rem;
+      text-wrap: wrap;
+    }
+  }
+
+  .lilita-one-regular {
+    font-family: 'Lilita One', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+</style>

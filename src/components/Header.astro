@@ -1,0 +1,79 @@
+---
+import { Image } from 'astro:assets';
+import Logo from '../assets/logo.jpg';
+---
+
+<script>
+  const hamburger = document.getElementById('hamburger-menu');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  hamburger.addEventListener('click', () => {
+    if (mobileMenu.classList.contains('hidden')) {
+      mobileMenu.classList.remove('hidden');
+    } else {
+      mobileMenu.classList.add('hidden');
+    }
+  });
+</script>
+
+<header
+  class='px-5 md:px-10 py-5 bg-yellow-400 flex items-center justify-between shadow-lg border-b-2 border-yellow-500'
+>
+  <Image
+    src={Logo}
+    alt='logo'
+    class='w-20 md:w-24 bg-white rounded-full border-4 border-yellow-500'
+  />
+
+  <nav>
+    <ul
+      class='md:flex gap-8 text-2xl font-semibold text-white hidden font-customFont'
+    >
+      <li>
+        <a href='/'>home</a>
+      </li>
+      <li>
+        <a href='#about'>about</a>
+      </li>
+      <li>
+        <a href='#how-to-buy'>how to buy</a>
+      </li>
+      <li>
+        <a href='#why-wagmi'>why wagmi?</a>
+      </li>
+      <li>
+        <a href='#tokenomics'>tokenomics</a>
+      </li>
+    </ul>
+  </nav>
+  <svg
+    class='md:hidden'
+    id='hamburger-menu'
+    width='40px'
+    height='40px'
+    viewBox='0 0 24 24'
+    fill='none'
+    xmlns='http://www.w3.org/2000/svg'
+  >
+    <path d='M4 18L20 18' stroke='#ffff' stroke-width='2' stroke-linecap='round'
+    ></path>
+    <path d='M4 12L20 12' stroke='#ffff' stroke-width='2' stroke-linecap='round'
+    ></path>
+    <path d='M4 6L20 6' stroke='#ffff' stroke-width='2' stroke-linecap='round'
+    ></path>
+  </svg>
+</header>
+
+<style scoped>
+  li {
+    text-shadow:
+      2px 0 #fdcf00,
+      -2px 0 #fdcf00,
+      0 2px #fdcf00,
+      0 -2px #fdcf00,
+      1px 1px #fdcf00,
+      -1px -1px #fdcf00,
+      1px -1px #fdcf00,
+      -1px 1px #fdcf00;
+  }
+</style>
