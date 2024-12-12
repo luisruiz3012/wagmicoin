@@ -4,7 +4,7 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				customFont: ['"LilitaOne-Regular"', "sans-serif"]
+				'customFont': ['"SuperShiny-0v0rG"', "sans-serif"]
 			}
 		},
 	},
