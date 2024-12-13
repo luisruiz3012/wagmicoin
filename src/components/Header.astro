@@ -1,6 +1,6 @@
 ---
 import { Image } from 'astro:assets';
-import Logo from '../assets/logo.jpg';
+import Logo from '../assets/logo1.webp';
 ---
 
 <script>
@@ -25,24 +25,39 @@ import Logo from '../assets/logo.jpg';
     class='w-20 md:w-24 bg-white rounded-full border-4 border-yellow-500'
   />
 
-  <nav>
-    <ul
-      class='md:flex gap-8 text-2xl font-semibold text-white hidden font-customFont'
-    >
+  <nav class='spicy-rice-regular'>
+    <ul class='md:flex gap-8 text-2xl font-semibold text-white hidden'>
       <li>
-        <a href='/'>home</a>
+        <a
+          class='bg-yellow-500 px-6 py-2 rounded-lg border-2 border-yellow-600'
+          href='/'
+        >
+          home
+        </a>
       </li>
       <li>
-        <a href='#about'>about</a>
+        <a
+          class='bg-yellow-500 px-6 py-2 rounded-lg border-2 border-yellow-600'
+          href='#about'>about</a
+        >
       </li>
       <li>
-        <a href='#how-to-buy'>how to buy</a>
+        <a
+          class='bg-yellow-500 px-6 py-2 rounded-lg border-2 border-yellow-600'
+          href='#how-to-buy'>how to buy</a
+        >
       </li>
       <li>
-        <a href='#why-wagmi'>why wagmi?</a>
+        <a
+          class='bg-yellow-500 px-6 py-2 rounded-lg border-2 border-yellow-600'
+          href='#why-purr'>why PURR?</a
+        >
       </li>
       <li>
-        <a href='#tokenomics'>tokenomics</a>
+        <a
+          class='bg-yellow-500 px-6 py-2 rounded-lg border-2 border-yellow-600'
+          href='#tokenomics'>tokenomics</a
+        >
       </li>
     </ul>
   </nav>

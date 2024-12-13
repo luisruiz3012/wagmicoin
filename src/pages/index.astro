@@ -13,7 +13,7 @@ import Hero from '../components/Hero.astro';
     <link rel='icon' type='image/svg+xml' href='/logo.jpg' />
     <meta name='viewport' content='width=device-width' />
     <meta name='generator' content={Astro.generator} />
-    <title>Wagmi Whale Coin</title>
+    <title>Purr Whale Coin</title>
     <link rel='preconnect' href='https://fonts.googleapis.com' />
     <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
     <link
@@ -26,403 +26,377 @@ import Hero from '../components/Hero.astro';
     <MobileMenu />
     <section class='min-h-screen bg-yellow-200'>
       <Hero />
-      <!-- <section class='flex items-center justify-center gap-20 flex-wrap'>
-        <div
-          class='lg:w-1/2 px-10 py-20 bg-yellow-400 border border-yellow-500 rounded-3xl'
+
+      <section
+        class='min-h-screen bg-yellow-200 py-16 px-10 md:px-24'
+        id='tokenomics'
+      >
+        <h3
+          class='spicy-rice-regular text-white text-center hidden md:flex items-center justify-center mx-auto'
         >
-          <h2 class='text-white spicy-rice-regular text-6xl'>Meet</h2>
-          <h1 class='spicy-rice-regular text-white'>Wagmi</h1>
-          <p class='mt-12 text-xl text-white'>
-            <span class='spicy-rice-regular'>Wagmi</span> is the next big memecoin
-            that combines the charm of everyone's favorite animal, the whale, with
-            the energy of memecoins. With a community-driven approach and a focus
-            on fun, <span class='spicy-rice-regular'>Wagmi</span> is poised to become
-            the coolest memecoin on the market.
-          </p>
+          Tokenomics
+        </h3>
 
-          <h6 class='mt-10 text-white text-4xl spicy-rice-regular li mb-2'>
-            Donations address ($WAGMI):
-          </h6>
-          <div class='bg-yellow-500 text-white px-4 py-2'>
-            <p class='text-2xl text-center font-semibold'>
-              UQBdEwSVoBcNeunEEl3gsn7rd8UR<br class='' />RQsq57UmG7ZsNuqDdlSv
-            </p>
-          </div>
-        </div>
-        <div class='md:w/1-2'>
-          <Image
-            src={Logo}
-            alt='logo'
-            class='bg-white rounded-full border-8 w-96 border-yellow-500'
-          />
-        </div>
-      </section> -->
-    </section>
-
-    <section
-      id='why-wagmi'
-      class='bg-yellow-400 w-full min-h-screen border-t border-yellow-500 py-16 px-10 md:px-24'
-    >
-      <h3 class='text-white spicy-rice-regular text-center'>
-        Why Wagmi Whale?
-      </h3>
-      <ul class='my-16 flex flex-col gap-10'>
-        <li
-          class='text-2xl md:text-5xl text-white spicy-rice-regular list-disc'
+        <h5
+          class='spicy-rice-regular text-white text-center text-wrap flex md:hidden mx-auto text-7xl'
         >
-          <b class='underline'>Community-Driven:</b> Wagmi Whale Coin is built by
-          and for its community, focusing on fun and inclusivity. Joining early means
-          becoming part of a passionate and growing community.
-        </li>
+          Tokenomics
+        </h5>
 
-        <li
-          class='text-2xl md:text-5xl text-white spicy-rice-regular list-disc'
-        >
-          <b class='underline'>Fun & Lighthearted:</b> Wagmi Whale brings a unique,
-          meme-inspired approach to crypto with its playful whale mascot, making
-          it more than just an investment—it's an enjoyable experience.
-        </li>
-
-        <li
-          class='text-2xl md:text-5xl text-white spicy-rice-regular list-disc'
-        >
-          <b class='underline'>Low Entry Price:</b> With an affordable entry point,
-          Wagmi Whale allows new investors to get in on the ground floor with the
-          potential for significant returns as the coin gains traction.
-        </li>
-      </ul>
-    </section>
-
-    <section
-      class='min-h-screen bg-yellow-200 py-16 px-10 md:px-24'
-      id='tokenomics'
-    >
-      <h3 class='spicy-rice-regular text-white text-center'>Tokenomics</h3>
-
-      <div class='flex justify-between items-center flex-col md:flex-row'>
-        <div class='md:w-2/3 flex flex-col items-center'>
-          <article
-            class='w-fit md:w-full flex items-center justify-start gap-4 flex-wrap md:flex-nowrap text-white bg-yellow-400 rounded-lg border-2 border-yellow-500 p-10 text-lg my-12 flex-col md:mt-24'
-          >
-            <h5 class='spicy-rice-regular text-4xl md:text-5xl'>
-              Total Supply:
-            </h5>
-            <h5 class='spicy-rice-regular text-2xl md:text-4xl text-center'>
-              1,000,000,000 $WAGMI
-            </h5>
-          </article>
-
-          <article
-            class='w-fit md:w-full flex items-center justify-start gap-4 flex-wrap text-wrap md:flex-nowrap text-white bg-yellow-400 rounded-lg border-2 border-yellow-500 p-10 text-lg flex-col'
-          >
-            <h5 class='spicy-rice-regular text-4xl'>Token address:</h5>
-            <h5
-              class='spicy-rice-regular text-lg text-center md:text-4xl text-wrap'
+        <div class='flex justify-between items-center flex-col md:flex-row'>
+          <div class='justify-center mx-auto flex flex-col items-center'>
+            <article
+              class='w-full md:w-full flex items-center justify-start gap-4 flex-wrap md:flex-nowrap text-white bg-yellow-400 rounded-lg border-2 border-yellow-500 p-10 text-lg my-12 flex-col md:mt-24'
             >
-              0xd578576523b8Fc9F58E 7F48FC99f3bBEC0756479
-            </h5>
-          </article>
-        </div>
+              <h5 class='spicy-rice-regular text-4xl md:text-5xl'>
+                Total Supply:
+              </h5>
+              <h5 class='spicy-rice-regular text-2xl md:text-4xl text-center'>
+                1,000,000,000 $PURR
+              </h5>
 
-        <img
-          src='/logo.jpg'
-          class='md:w-1/3 md:ml-10 h-full my-10 rounded-full'
-        />
-      </div>
-    </section>
-
-    <section
-      id='about'
-      class='bg-yellow-400 w-full min-h-screen border-t border-yellow-500 py-16 px-10 md:px-24'
-    >
-      <h3 class='text-white spicy-rice-regular text-center'>About</h3>
-      <p class='text-white text-xl my-24'>
-        In the world of cryptocurrencies, a “whale” refers to an individual or
-        entity that owns a significant amount of cryptocurrency. These large
-        holdings give them the ability to influence the market with their
-        trades. Here’s a more detailed explanation:
-        <br />
-        <br />
-
-        Whales are individuals or entities that hold large amounts of
-        cryptocurrency, accumulated through early investments, mining, or other
-        means. There is no set amount that defines a whale, as it depends on the
-        cryptocurrency in question. However, someone is considered a whale if
-        they own a significant percentage of a cryptocurrency’s total supply and
-        can influence price movements by making large transactions.
-
-        <br />
-        <br />
-
-        Whales can cause price fluctuations by buying or selling large amounts
-        of assets. For example, if a whale decides to sell a large amount of
-        Bitcoin, this can lead to a drop in price due to increased supply. On
-        the other hand, if they buy large amounts, they can cause the price to
-        rise due to increased demand.
-        <br />
-        <br />
-
-        Thanks to the transparency of blockchain technology, it is possible to
-        track large transactions and thus identify whale activity. This can be
-        done using blockchain explorers that display transactions in real time.
-        Additionally, there are platforms and social media accounts that monitor
-        and report whale activity.
-      </p>
-    </section>
-    <section class='min-h-screen bg-yellow-200 p-10 md:p-24' id='how-to-buy'>
-      <h3 class='spicy-rice-regular text-white text-center'>How to buy</h3>
-
-      <div class='my-20 flex flex-col gap-10'>
-        <article
-          class='w-full flex items-center justify-start gap-10 flex-wrap md:flex-nowrap text-white bg-yellow-400 rounded-lg border-2 border-yellow-500 p-10 text-lg'
-        >
-          <!-- <img
-            src='//images.ctfassets.net/9sy2a0egs6zh/2qy1wS5MmZOXkXn9yFlGJp/f3797a512c283e6f71450abd408b7452/mm-logo-white.svg'
-            class='w-36'
-          /> -->
-
-          <!-- <svg
-            xmlns='http://www.w3.org/2000/svg'
-            width='97'
-            height='96'
-            fill='none'
-            viewBox='0 0 97 96'
-            ><path
-              fill='#45AEF5'
-              d='M48.5 45.333 91.167 26 48.5 93.333z'
-              opacity='0.75'
-              style='--darkreader-inline-fill: #0963a0;'
-              data-darkreader-inline-fill=''></path><path
-              fill='#45AEF5'
-              d='M48.5 45.333 5.833 26 48.5 93.333z'
-              opacity='0.5'
-              style='--darkreader-inline-fill: #0963a0;'
-              data-darkreader-inline-fill=''></path><path
-              fill='#45AEF5'
-              d='M48.5 45.333 5.833 26 48.5 6.667 91.167 26z'
-              style='--darkreader-inline-fill: #0963a0;'
-              data-darkreader-inline-fill=''></path></svg
-          > -->
-
-          <img
-            src='//images.ctfassets.net/9sy2a0egs6zh/2qy1wS5MmZOXkXn9yFlGJp/f3797a512c283e6f71450abd408b7452/mm-logo-white.svg'
-          />
-
-          <div>
-            <h2 class='text-white spicy-rice-regular text-4xl'>
-              Download MetaMask
-            </h2>
-            <p>
-              Metamask is one of the most popular crypto wallets on the market.
-              You can download it on IOS and Adroid or you can even download the
-              browser extension and become part of the Shido ecosystem.
-            </p>
-          </div>
-        </article>
-
-        <article
-          class='w-full flex items-center justify-center gap-10 flex-wrap md:flex-nowrap text-white bg-yellow-400 rounded-lg border-2 border-yellow-500 p-10 text-lg'
-        >
-          <img
-            src='https://shido.io/wp-content/uploads/2023/12/Image-2.svg'
-            class='w-48'
-          />
-
-          <div>
-            <h2 class='text-white spicy-rice-regular text-4xl'>
-              Get some <span>$SHIDO</span>
-            </h2>
-            <p>
-              Once you have your Metamask Wallet installed and setup, it's time
-              to get some $SHIDO to start trading. You can buy some $SHIDO at
-              your favourite CEX and transfer it to your Metamask Wallet to
-              start trading.
-            </p>
-          </div>
-        </article>
-
-        <article
-          class='w-full flex items-center justify-center gap-10 flex-wrap md:flex-nowrap text-white bg-yellow-400 rounded-lg border-2 border-yellow-500 p-10 text-lg'
-        >
-          <img
-            src='https://shido.io/wp-content/uploads/2023/12/Image-2.svg'
-            class='w-48'
-          />
-
-          <div>
-            <h2 class='text-white spicy-rice-regular text-4xl'>
-              Go to the WAGMI Pool
-            </h2>
-            <p>
-              Once you have $SHIDO on your MetaMask Wallet, it's time to trade
-              it for some $WAGMI. To do that, you can go to our Pool page
-              <a
-                class='text-yellow-600 underline font-bold'
-                href='https://tonsale.finance/logo/logo.svg'>Click here</a
+              <h5 class='spicy-rice-regular text-4xl md:text-5xl mt-5'>
+                Liquidity:
+              </h5>
+              <h5
+                class='spicy-rice-regular text-2xl md:text-4xl text-center my-5'
               >
-            </p>
+                200,000,000 $PURR
+              </h5>
+
+              <h5 class='spicy-rice-regular text-4xl md:text-5xl mt-5'>
+                Partnerships:
+              </h5>
+              <h5 class='spicy-rice-regular text-2xl md:text-4xl text-center'>
+                100,000,000 $PURR
+              </h5>
+
+              <h5 class='spicy-rice-regular text-4xl md:text-5xl mt-5'>
+                Marketing:
+              </h5>
+              <h5 class='spicy-rice-regular text-2xl md:text-4xl text-center'>
+                100,000,000 $PURR
+              </h5>
+            </article>
           </div>
-        </article>
 
-        <article
-          class='w-full flex items-center justify-center gap-10 flex-wrap md:flex-nowrap text-white bg-yellow-400 rounded-lg border-2 border-yellow-500 p-10 text-lg'
-        >
-          <img
-            src='/logo.jpg'
-            class='w-20 rounded-full border-4 border-yellow-600'
-          />
-
-          <div>
-            <h2 class='text-white spicy-rice-regular text-4xl'>
-              Exchange <span>$SHIDO</span> for $WAGMI
-            </h2>
-            <p>
-              You can trade some $SHIDO for $WAGMI. We have ZERO taxes so you
-              don’t need to worry about buying with a specific slippage,
-              although you may need to use slippage during times of market
-              volatility.
-            </p>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <!-- <section
-      class='min-h-screen bg-yellow-200 py-16 px-10 md:px-24'
-      id='tokenomics'
-    >
-      <h5 class='lilita-one-regular text-white text-center'>Tokenomics</h5>
-
-      <div class='flex justify-between items-center flex-col md:flex-row'>
-        <div class='md:w-2/3 flex flex-col items-center'>
-          <article
-            class='w-fit md:w-full flex items-center justify-start gap-4 flex-wrap md:flex-nowrap text-white bg-yellow-400 rounded-lg border-2 border-yellow-500 p-10 text-lg my-12 flex-col md:mt-24'
-          >
-            <h5 class='lilita-one-regular text-4xl md:text-5xl'>
-              Total Supply:
-            </h5>
-            <h5 class='lilita-one-regular text-2xl md:text-4xl text-center'>
-              1,000,000,000 $WAGMI
-            </h5>
-          </article>
-
-          <article
-            class='w-fit md:w-full flex items-center justify-start gap-4 flex-wrap text-wrap md:flex-nowrap text-white bg-yellow-400 rounded-lg border-2 border-yellow-500 p-10 text-lg flex-col'
-          >
-            <h5 class='lilita-one-regular text-4xl'>Token address:</h5>
-            <h5
-              class='lilita-one-regular text-lg text-center md:text-4xl text-wrap'
-            >
-              0xd578576523b8Fc9F58E 7F48FC99f3bBEC0756479
-            </h5>
-          </article>
-        </div>
-
-        <img
+          <!-- <img
           src='/logo.jpg'
           class='md:w-1/3 md:ml-10 h-full my-10 rounded-full'
-        />
-      </div>
-    </section> -->
+        /> -->
+        </div>
+      </section>
 
-    <Footer />
+      <section
+        id='about'
+        class='bg-yellow-400 w-full min-h-screen border-t border-yellow-500 py-16 px-10 md:px-24'
+      >
+        <h3 class='text-white spicy-rice-regular text-center'>About</h3>
+        <p class='text-white text-xl my-24'>
+          PurrCoin is more than just a cryptocurrency—it’s a movement for cat
+          lovers and crypto enthusiasts alike! Featuring an adorable orange
+          tabby mascot and a playful, community-driven ethos, PurrCoin combines
+          the charm of internet culture with the power of blockchain technology.
+          <br />
+          <br />
+
+          At the heart of PurrCoin is its mission: to spread pawsitivity while
+          making a real-world impact. A portion of every transaction is donated
+          to animal shelters and rescue organizations, ensuring that your
+          investment helps furry friends in need.
+          <br />
+          <br />
+
+          Whether you're here for the memes, the mission, or the moon, PurrCoin
+          is your ticket to a fun, philanthropic, and financially rewarding
+          journey. So grab your treats, curl up with the community, and hodl
+          like a true feline. Join the revolution—because when it comes to
+          PurrCoin, we’re all paws in!
+          <br />
+          <br />
+
+          🐾 <b class='text-4xl'>Features:</b>
+          <br />
+          <span class='list-disc text-xl'>- Community-driven growth</span>
+          <br />
+
+          <span class='list-disc text-xl'>- Support for animal shelters</span>
+
+          <br />
+          <span class='list-disc text-xl'
+            >- Playful and fun branding The cutest mascot in crypto!</span
+          >
+          <br /><br />
+          Ready to join the PurrCoin Pod? Start your journey today and help make
+          the world a better place, one paw at a time!
+        </p>
+      </section>
+      <section
+        class='min-h-screen
+            bg-yellow-200
+            p-10
+            md:p-24'
+        id='how-to-buy'
+      >
+        <h3 class='spicy-rice-regular text-white text-center'>How to buy</h3>
+
+        <div class='my-20 flex flex-col gap-10'>
+          <article
+            class='w-full flex items-center justify-start gap-10 flex-wrap md:flex-nowrap text-white bg-yellow-400 rounded-lg border-2 border-yellow-500 p-10 text-lg'
+          >
+            <!-- <img
+              src='//images.ctfassets.net/9sy2a0egs6zh/2qy1wS5MmZOXkXn9yFlGJp/f3797a512c283e6f71450abd408b7452/mm-logo-white.svg'
+            /> -->
+
+            <div class='mt-10'>
+              <h2 class='text-white spicy-rice-regular text-4xl'>
+                Download MetaMask
+              </h2>
+              <p>
+                Metamask is one of the most popular crypto wallets on the
+                market. You can download it on IOS and Adroid or you can even
+                download the browser extension and become part of the Shido
+                ecosystem.
+              </p>
+
+              <div class='my-10'>
+                <h2 class='text-white spicy-rice-regular text-4xl'>
+                  Get some <span>$SHIDO</span>
+                </h2>
+                <p>
+                  Once you have your Metamask Wallet installed and setup, it's
+                  time to get some $SHIDO to start trading. You can buy some
+                  $SHIDO at your favourite CEX and transfer it to your Metamask
+                  Wallet to start trading.
+                </p>
+              </div>
+
+              <div class='my-10'>
+                <h2 class='text-white spicy-rice-regular text-4xl'>
+                  Go to the Purr Pool
+                </h2>
+                <p>
+                  Once you have $SHIDO on your MetaMask Wallet, it's time to
+                  trade it for some $Purr. To do that, you can go to our Pool
+                  page
+                  <a
+                    class='text-yellow-600 underline font-bold'
+                    href='https://tonsale.finance/logo/logo.svg'>Click here</a
+                  >
+                </p>
+              </div>
+
+              <div class='mb-10'>
+                <h2 class='text-white spicy-rice-regular text-4xl'>
+                  Exchange <span>$SHIDO</span> for $Purr
+                </h2>
+                <p>
+                  You can trade some $SHIDO for $Purr. We have ZERO taxes so you
+                  don’t need to worry about buying with a specific slippage,
+                  although you may need to use slippage during times of market
+                  volatility.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <!-- <article
+            class='w-full flex items-center justify-center gap-10 flex-wrap md:flex-nowrap text-white bg-yellow-400 rounded-lg border-2 border-yellow-500 p-10 text-lg'
+          >
+            <img
+              src='https://shido.io/wp-content/uploads/2023/12/Image-2.svg'
+              class='w-48'
+            />
+
+            <div>
+              <h2 class='text-white spicy-rice-regular text-4xl'>
+                Get some <span>$SHIDO</span>
+              </h2>
+              <p>
+                Once you have your Metamask Wallet installed and setup, it's
+                time to get some $SHIDO to start trading. You can buy some
+                $SHIDO at your favourite CEX and transfer it to your Metamask
+                Wallet to start trading.
+              </p>
+            </div>
+          </article> -->
+
+          <!-- <article
+            class='w-full flex items-center justify-center gap-10 flex-wrap md:flex-nowrap text-white bg-yellow-400 rounded-lg border-2 border-yellow-500 p-10 text-lg'
+          >
+            <img
+              src='https://shido.io/wp-content/uploads/2023/12/Image-2.svg'
+              class='w-48'
+            />
+
+            <div>
+              <h2 class='text-white spicy-rice-regular text-4xl'>
+                Go to the Purr Pool
+              </h2>
+              <p>
+                Once you have $SHIDO on your MetaMask Wallet, it's time to trade
+                it for some $Purr. To do that, you can go to our Pool page
+                <a
+                  class='text-yellow-600 underline font-bold'
+                  href='https://tonsale.finance/logo/logo.svg'>Click here</a
+                >
+              </p>
+            </div>
+          </article> -->
+
+          <!-- <article
+            class='w-full flex items-center justify-center gap-10 flex-wrap md:flex-nowrap text-white bg-yellow-400 rounded-lg border-2 border-yellow-500 p-10 text-lg'
+          >
+            <img
+              src='/logo.jpg'
+              class='w-20 rounded-full border-4 border-yellow-600'
+            />
+
+            <div>
+              <h2 class='text-white spicy-rice-regular text-4xl'>
+                Exchange <span>$SHIDO</span> for $Purr
+              </h2>
+              <p>
+                You can trade some $SHIDO for $Purr. We have ZERO taxes so you
+                don’t need to worry about buying with a specific slippage,
+                although you may need to use slippage during times of market
+                volatility.
+              </p>
+            </div>
+          </article> -->
+        </div>
+      </section>
+      <section
+        id='why-purr'
+        class='bg-yellow-400 w-full min-h-screen border-t border-yellow-500 py-16 px-10 md:px-24'
+      >
+        <h3 class='text-white spicy-rice-regular text-center'>Why Purr Cat?</h3>
+        <ul class='my-16 flex flex-col gap-10'>
+          <li
+            class='text-2xl md:text-5xl text-white spicy-rice-regular list-disc'
+          >
+            <b class='underline'>Community-Driven:</b> Purr Whale Coin is built by
+            and for its community, focusing on fun and inclusivity. Joining early
+            means becoming part of a passionate and growing community.
+          </li>
+
+          <li
+            class='text-2xl md:text-5xl text-white spicy-rice-regular list-disc'
+          >
+            <b class='underline'>Fun & Lighthearted:</b> Purr Whale brings a unique,
+            meme-inspired approach to crypto with its playful whale mascot, making
+            it more than just an investment—it's an enjoyable experience.
+          </li>
+
+          <li
+            class='text-2xl md:text-5xl text-white spicy-rice-regular list-disc'
+          >
+            <b class='underline'>Low Entry Price:</b> With an affordable entry point,
+            Purr Whale allows new investors to get in on the ground floor with the
+            potential for significant returns as the coin gains traction.
+          </li>
+        </ul>
+      </section>
+
+      <Footer />
+    </section>
+
+    <style is:global>
+      * {
+        scroll-behavior: smooth;
+      }
+
+      .spicy-rice-regular {
+        font-family: 'Spicy Rice', serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: 'SuperShiny 0v0rG';
+        src: url('/fonts/SuperShiny-0v0rG.ttf') format('ttf');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      h1,
+      h3,
+      h4 {
+        font-size: 6rem;
+        line-height: 8rem;
+        stroke: fdcf00;
+        text-shadow:
+          2px 0 #fdcf00,
+          -2px 0 #fdcf00,
+          0 2px #fdcf00,
+          0 -2px #fdcf00,
+          1px 1px #fdcf00,
+          -1px -1px #fdcf00,
+          1px -1px #fdcf00,
+          -1px 1px #fdcf00;
+      }
+
+      h5 {
+        font-size: 10rem;
+        line-height: 8rem;
+        stroke: yellow;
+        text-shadow:
+          2px 0 #fdcf00,
+          -2px 0 #fdcf00,
+          0 2px #fdcf00,
+          0 -2px #fdcf00,
+          1px 1px #fdcf00,
+          -1px -1px #fdcf00,
+          1px -1px #fdcf00,
+          -1px 1px #fdcf00;
+      }
+
+      h2,
+      span,
+      li {
+        text-shadow:
+          2px 0 #fdcf00,
+          -2px 0 #fdcf00,
+          0 2px #fdcf00,
+          0 -2px #fdcf00,
+          1px 1px #fdcf00,
+          -1px -1px #fdcf00,
+          1px -1px #fdcf00,
+          -1px 1px #fdcf00;
+      }
+
+      @media screen and (max-width: 768px) {
+        h1,
+        h3 {
+          font-size: 7rem;
+          text-wrap: wrap;
+        }
+
+        h5 {
+          font-size: 5rem;
+          text-wrap: wrap;
+        }
+      }
+
+      @media screen and (max-width: 380px) {
+        h1,
+        h3 {
+          font-size: 4rem;
+          text-wrap: wrap;
+        }
+
+        h5 {
+          font-size: 4rem;
+          text-wrap: wrap;
+        }
+      }
+
+      .lilita-one-regular {
+        font-family: 'Lilita One', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+    </style>
   </body>
-
-  <style is:global>
-    * {
-      scroll-behavior: smooth;
-    }
-
-    .spicy-rice-regular {
-      font-family: 'Spicy Rice', serif;
-      font-weight: 400;
-      font-style: normal;
-    }
-
-    @font-face {
-      font-family: 'SuperShiny 0v0rG';
-      src: url('/fonts/SuperShiny-0v0rG.ttf') format('ttf');
-      font-weight: normal;
-      font-style: normal;
-      font-display: swap;
-    }
-
-    h1,
-    h3,
-    h4 {
-      font-size: 10rem;
-      line-height: 8rem;
-      stroke: fdcf00;
-      text-shadow:
-        2px 0 #fdcf00,
-        -2px 0 #fdcf00,
-        0 2px #fdcf00,
-        0 -2px #fdcf00,
-        1px 1px #fdcf00,
-        -1px -1px #fdcf00,
-        1px -1px #fdcf00,
-        -1px 1px #fdcf00;
-    }
-
-    h5 {
-      font-size: 10rem;
-      line-height: 8rem;
-      stroke: yellow;
-      text-shadow:
-        2px 0 #fdcf00,
-        -2px 0 #fdcf00,
-        0 2px #fdcf00,
-        0 -2px #fdcf00,
-        1px 1px #fdcf00,
-        -1px -1px #fdcf00,
-        1px -1px #fdcf00,
-        -1px 1px #fdcf00;
-    }
-
-    h2,
-    span,
-    li {
-      text-shadow:
-        2px 0 #fdcf00,
-        -2px 0 #fdcf00,
-        0 2px #fdcf00,
-        0 -2px #fdcf00,
-        1px 1px #fdcf00,
-        -1px -1px #fdcf00,
-        1px -1px #fdcf00,
-        -1px 1px #fdcf00;
-    }
-
-    @media screen and (max-width: 768px) {
-      h1,
-      h3 {
-        font-size: 7rem;
-        text-wrap: wrap;
-      }
-
-      h5 {
-        font-size: 5rem;
-        text-wrap: wrap;
-      }
-    }
-
-    @media screen and (max-width: 380px) {
-      h1,
-      h3 {
-        font-size: 4rem;
-        text-wrap: wrap;
-      }
-
-      h5 {
-        font-size: 4rem;
-        text-wrap: wrap;
-      }
-    }
-
-    .lilita-one-regular {
-      font-family: 'Lilita One', sans-serif;
-      font-weight: 400;
-      font-style: normal;
-    }
-  </style>
 </html>
